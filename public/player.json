@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Shihab Bhuiya",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 150000,
+    "rating": 9.5,
+    "image": "https://i.ibb.co.com/RkgTn6hQ/Iftar-Party-notch-Photo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "price": 140000,
+    "rating": 9.3,
+    "image": "https://i.ibb.co.com/nqLYFyH5/shaheen-afridi.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Shihab Bhuiya",
+    "country": "Pakistan",
+    "role": "Wicketkeeper-Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 135000,
+    "rating": 9.2,
+    "image": "https://i.ibb.co.com/RkgTn6hQ/Iftar-Party-notch-Photo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Shadab Khan",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 130000,
+    "rating": 9.0,
+    "image": "https://i.ibb.co.com/xSws3ryW/shadab.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fakhar Zaman",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 120000,
+    "rating": 8.8,
+    "image": "https://i.ibb.co.com/6JvXfjRB/fakar.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Haris Rauf",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 125000,
+    "rating": 8.9,
+    "image": "https://i.ibb.co.com/DgG341FJ/haris.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Imad Wasim",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": 110000,
+    "rating": 8.7,
+    "image": "https://i.ibb.co.com/pvjtWb66/imad.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Naseem Shah",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 115000,
+    "rating": 8.8,
+    "image": "https://i.ibb.co.com/SX8W2DTM/naseem.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Iftikhar Ahmed",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 105000,
+    "rating": 8.5,
+    "image": "https://i.ibb.co.com/j9K41yVn/iftekar.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Abdullah Shafique",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "None",
+    "price": 100000,
+    "rating": 8.4,
+    "image": "https://i.ibb.co.com/WpdDNxTP/abdulla.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Hasan Ali",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 95000,
+    "rating": 8.2,
+    "image": "https://i.ibb.co.com/xKZYCf8s/hasan-ali.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mohammad Nawaz",
+    "country": "Pakistan",
+    "role": "All-rounder",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": 98000,
+    "rating": 8.3,
+    "image": "https://i.ibb.co.com/fG4YNcLN/nawaz.jpg"
+  }
+]
