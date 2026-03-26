@@ -5,6 +5,7 @@ import AvailablePlayer from './Component/AvailablePlayer/AvailablePlayer'
 import Players from './Component/AvailablePlayer/Players'
 import Navabar from './Component/NavBar/Navabar'
 import Banner from './Component/Banner/Banner'
+import { ToastContainer } from 'react-toastify';
 
 const fetchPlayer = async () =>{
   const res = await fetch("/player.json");
@@ -28,7 +29,7 @@ const playerPromise = fetchPlayer();
     <Players playerPromise= {playerPromise} setCoin={setCoin} coin={coin} ></Players>
      
 </Suspense>
-      
+       <ToastContainer/>
 
       
     </>
