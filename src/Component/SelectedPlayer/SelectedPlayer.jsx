@@ -29,7 +29,7 @@ const SelectedPlayer = ({selectedPlayer,setSelectedPlayer,setCoin,coin}) => {
             </div>
             </div>
             <div>
-                <button className='btn' onClick={()=>deleteSelectedPlayer(player)}><MdDelete /></button>
+                <button className='btn btn-soft' onClick={()=>deleteSelectedPlayer(player)}><MdDelete /></button>
             </div>
            </div>
         
