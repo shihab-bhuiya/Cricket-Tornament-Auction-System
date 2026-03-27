@@ -23,9 +23,9 @@ const Players = ({playerPromise,setCoin,coin}) => {
             <div className='flex justify-between '> 
 
 
-            <button onClick={()=>setSelectedType("available")} className={`btn  ${selectedType === "available" ? "rounded-2xl bg-[#E7FE29]" :"bg-white"} rounded-r-none `}>Available</button>
+            <button onClick={()=>setSelectedType("available")} className={`btn  ${selectedType === "available" ? "rounded-2xl bg-[#E7FE29] text-black" :"bg-white text-black"} rounded-r-none `}>Available</button>
 
-            <button onClick={()=>setSelectedType("selected")} className={`btn  ${selectedType === "selected" ? "rounded-2xl bg-[#E7FE29]" :"bg-white"} rounded-l-none `}>Selected({selectedPlayer.length})</button>
+            <button onClick={()=>setSelectedType("selected")} className={`btn  ${selectedType === "selected" ? "rounded-2xl bg-[#E7FE29] text-black" :"bg-white text-black"} rounded-l-none `}>Selected({selectedPlayer.length})</button>
             </div>
          </div>
         
