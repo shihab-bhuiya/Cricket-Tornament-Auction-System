@@ -1,0 +1,85 @@
+hero {
+  height: 545px;
+  border-radius: 24px;
+
+  /* Gradient background (same vibe as your design) */
+  background: linear-gradient(
+    120deg,
+    #6a85f1 0%,
+    #0b0b0b 40%,
+    #000000 60%,
+    #dba58c 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  /* Smooth shadow */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Content center */
+.hero-content {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+}
+
+/* Image */
+.hero-img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.hero h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+/* Subtitle */
+.hero p {
+  font-size: 16px;
+  color: #bfbfbf;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.hero-btn {
+  background: #e7fe29;
+  color: #000;
+  padding: 14px 30px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+
+  /* Glow effect */
+  box-shadow: 0 0 10px rgba(231, 254, 41, 0.6),
+              0 0 20px rgba(231, 254, 41, 0.4);
+
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.hero-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px rgba(231, 254, 41, 0.9),
+              0 0 40px rgba(231, 254, 41, 0.6);
+}
+
+/* Optional: add smooth gradient overlay blur */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}

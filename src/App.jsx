@@ -23,7 +23,7 @@ const playerPromise = fetchPlayer();
      
     <Navabar coin ={coin}></Navabar>
 
- {/* <Banner></Banner> */}
+ <Banner setCoin={setCoin} coin={coin}></Banner>
 
 <Suspense fallback={<span className='loading loading-spinner loading-6xl'></span>}> 
     <Players playerPromise= {playerPromise} setCoin={setCoin} coin={coin} ></Players>
